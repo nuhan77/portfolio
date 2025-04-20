@@ -1,0 +1,83 @@
+html {
+  background: rgb(29, 29, 29);
+  color: white;
+}
+#root {
+  /* max-width: 1920px; */
+  box-sizing: border-box;
+  margin: 0;
+  /* background: red; */
+}
+
+#test {
+  color: #333333;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-winky-sans {
+  font-family: "Winky Sans", sans-serif;
+}
+.font-caveat {
+  font-family: "Caveat", cursive;
+}
+.font-titillium {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.font-courgette {
+  font-family: "Courgette", cursive;
+}
+.font-tekur {
+  font-family: "Tektur", sans-serif;
+}
+#hero {
+  transform: rotateX(50deg) rotateY(50deg);
+}
+.gridCols {
+  grid-template-columns: 3fr 2fr;
+}
+.gridRows {
+  grid-template-rows: 3fr 2fr;
+}
+
+.imageDiv {
+  background-image: conic-gradient(
+    #00dbde,
+    #aa00de,
+    #de00aa,
+    #de00aa,
+    #aa00de,
+    #00dbde
+  );
+}
+
+.minHeight {
+  height: calc(100dvh-100px);
+}
+
+.description {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.graph-paper {
+  /* background-color: white; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 1px, transparent 2px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.5) 1px, transparent 2px);
+  background-size: 20px 20px;
+  /* animation: scrollGrid 1s linear infinite;  */
+}
+
+@keyframes scrollGrid {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 20px;
+  }
+}
