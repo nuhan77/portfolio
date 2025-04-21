@@ -1,4 +1,4 @@
-import AnimatedButton from "../components/animatedButton";
+import AnimatedButton from "./../components/animatedButton";
 import tourBookingVideo from "./../assets/tour-booking.mp4";
 import portfolioImage from "../assets/portfolio.png";
 import { useEffect, useRef } from "react";

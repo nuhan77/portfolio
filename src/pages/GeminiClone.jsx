@@ -1,4 +1,4 @@
-import AnimatedButton from "../components/animatedButton";
+import AnimatedButton from "./../components/animatedButton";
 import geminiVideo from "./../assets/tour-booking.mp4";
 import geminiImage from "../assets/geminiClone.png";
 import { useEffect, useRef } from "react";
