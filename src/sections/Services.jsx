@@ -4,11 +4,11 @@ import { motion } from "motion/react";
 import { useMyContext } from "../context/context";
 import fullStackImage from "./../assets/fullStack-min.jpg";
 import frontendImage from "./../assets/frontend-min.jpg";
-import backendImage from "../assets/backend-min.jpg";
-import server from "../assets/server-min.jpg";
-import freelance from "../assets/freelance-min.jpg";
-import api from "../assets/api-min.jpg";
-import optimization from "../assets/optimization-min.jpg";
+import backendImage from "./../assets/backend-min.jpg";
+import server from "./../assets/server-min.jpg";
+import freelance from "./../assets/freelance-min.jpg";
+import api from "./../assets/api-min.jpg";
+import optimization from "./../assets/optimization-min.jpg";
 import TextReveal from "../components/TextReveal";
 
 function Services() {
