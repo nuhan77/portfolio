@@ -33,12 +33,6 @@ This portfolio is a reflection of my journey as a developer and designer. It pre
 
 ---
 
-## 📷 Screenshots
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-
----
 
 
 ## 📝 License
