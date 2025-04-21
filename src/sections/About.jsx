@@ -1,6 +1,6 @@
 import TextReveal from "../components/TextReveal";
 import { motion, useInView } from "motion/react";
-import pic from "../assets/aboutPic.jpg";
+import pic from "./../assets/aboutPic.jpg";
 import RevealFormBottom from "../components/RevealFormBottom";
 import CountUp from "react-countup";
 import { useEffect, useRef } from "react";
