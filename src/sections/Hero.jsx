@@ -5,6 +5,7 @@ import instagramIcon from "./../assets/icons/instagram.png";
 import linkedinIcon from "./../assets/icons/linkedin.png";
 import githubIcon from "./../assets/icons/github-sign.png";
 import twitterIcon from "./../assets/icons/twitter.png";
+import logo from "../../public/logo.png";
 
 const socialMedias = [
   {
@@ -38,7 +39,7 @@ import {
 import { animate } from "motion";
 import { useMyContext } from "../context/context";
 import TextReveal from "../components/TextReveal";
-import ButtonAnimation from "../components/ButtonAnimation";
+import AnimatedButton from "../components/AnimatedButton";
 import { Link } from "react-scroll";
 
 function Hero() {
@@ -84,8 +85,9 @@ function Hero() {
       id="home"
       ref={ref}
       onMouseMove={handleMouseMove}
-      className=" overflow-hidden min-h-screen flexCenter flex-col "
+      className=" overflow-hidden relative min-h-screen flexCenter flex-col "
     >
+      <img src={logo} className="w-20 absolute top-0 left-0" alt="" />
       <div className="flex-col  md:flex-row  pt-20 md:pt-0 items-center justify-around px-20 flex gap-12">
         <motion.div
           initial={{ opacity: 0, x: -200 }}
@@ -129,10 +131,10 @@ function Hero() {
 
             <div className={` mt-8 flex gap-6 -z-20`}>
               <Link to="contact" smooth={true} offset={-70}>
-                <ButtonAnimation>Contact Me</ButtonAnimation>
+                <AnimatedButton>Contact Me</AnimatedButton>
               </Link>
               <Link to="contact" smooth={true} offset={-70}>
-                <ButtonAnimation>Hire Me</ButtonAnimation>
+                <AnimatedButton>Hire Me</AnimatedButton>
               </Link>
             </div>
           </motion.div>

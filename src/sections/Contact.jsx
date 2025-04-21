@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import RevealFormBottom from "../components/RevealFormBottom";
 import TextReveal from "../components/TextReveal";
 import { motion, useInView } from "motion/react";
-import AnimatedButton from "../components/animatedButton";
+import AnimatedButton from "../components/AnimatedButton";
 import { useMyContext } from "../context/context";
 import Modal from "../modal/Modal";
 import loadingGif from "../assets/loading_icon.gif";

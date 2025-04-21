@@ -8,7 +8,7 @@ import tourBookingImage from "../assets/tourBooking.png";
 import geminiCLoneImage from "../assets/geminiClone.png";
 import portfolioImage from "../assets/portfolio.png";
 import { Link, useNavigate } from "react-router-dom";
-import AnimatedButton from "../components/animatedButton";
+import AnimatedButton from "../components/AnimatedButton";
 
 const projectsInfo = [
   {
