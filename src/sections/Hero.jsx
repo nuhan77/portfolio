@@ -7,6 +7,7 @@ import githubIcon from "./../assets/icons/github-sign.png";
 import twitterIcon from "./../assets/icons/twitter.png";
 import logo from "../../public/logo.png";
 
+
 const socialMedias = [
   {
     png: facebookIcon,
@@ -55,7 +56,6 @@ function Hero() {
   }, [isInView]);
 
   const texts = useRef(null);
-  const image = useRef(null);
 
   const primaryX = useMotionValue(0);
   const primaryY = useMotionValue(0);
@@ -80,6 +80,10 @@ function Hero() {
     animate(primaryX, (mouseY - centerY) / 10, { duration: 2 });
   };
 
+
+  const [isImageLoading, setIsImageLoading] = useState(true);
+
+
   return (
     <section
       id="home"
@@ -87,7 +91,7 @@ function Hero() {
       onMouseMove={handleMouseMove}
       className=" overflow-hidden relative min-h-screen flexCenter flex-col "
     >
-      <img src={logo} className="w-20 absolute top-0 left-0" alt="" />
+      <img src={logo} className="w-20 absolute top-0 left-0" alt="" /> 
       <div className="flex-col  md:flex-row  pt-20 md:pt-0 items-center justify-around px-20 flex gap-12">
         <motion.div
           initial={{ opacity: 0, x: -200 }}
@@ -140,11 +144,11 @@ function Hero() {
           </motion.div>
         </motion.div>
 
-        <div ref={image} className="flexCenter pt-16 pb-28">
+        <div className="flexCenter pt-16 pb-28">
           <div className=" relative flexCenter h-[15em] w-[15em] rounded-full  ">
             <motion.div
               initial={{ top: "50%", left: "50%", height: 0, width: 0 }}
-              animate={{
+              animate={ isImageLoading ? {} : {
                 top: 0,
                 left: 0,
                 height: "100%",
@@ -165,15 +169,17 @@ function Hero() {
               }}
               className="imageDiv absolute rounded-full top-0 left-0 h-full w-full blur-xl "
             ></motion.div>
+            <div className="max-h-60 z-10 max-w-60 rounded-full">
             <motion.img
-              className="max-h-60 z-10 max-w-60 rounded-full "
+              className=" h-full w-full object-cover rounded-full "
               src={profilePic}
+              onLoad={() => setIsImageLoading(false)}
               initial={{
                 x: 500,
                 opacity: 0,
                 scale: 2,
               }}
-              animate={{
+              animate={ isImageLoading ? {} : {
                 x: 0,
                 opacity: 1,
                 scale: 1,
@@ -183,7 +189,9 @@ function Hero() {
                 duration: 1,
                 ease: [0, 0.71, 0.3, 1.01],
               }}
-            />
+            /> 
+            
+            </div> 
           </div>
         </div>
       </div>
