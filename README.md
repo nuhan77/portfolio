@@ -37,9 +37,6 @@ This portfolio is a reflection of my journey as a developer and designer. It pre
 
 | Desktop View | Mobile View |
 |--------------|-------------|
-| ![Desktop Screenshot](./screenshots/desktop.png) | ![Mobile Screenshot](./screenshots/mobile.png) |
-
-> *(Replace with actual screenshots of your site)*
 
 ---
 
