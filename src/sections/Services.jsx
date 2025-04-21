@@ -94,13 +94,16 @@ const ServiceCard = ({ title, image, desc }) => {
   const { isMobile, under490px, under400px } = useMyContext();
 
   const ref = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["0 1", ".8 1"],
-  });
+  // const { scrollYProgress } = useScroll({
+  //   target: ref,
+  //   offset: ["0 1", ".8 1"],
+  // });
 
-  const scaleTransform = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
-  const opacityTransform = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+  // const scaleTransform = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
+  // const opacityTransform = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+
+
+  const isInView = useInView(ref, { amount: 0.2, once:true });
 
   return (
     <div className="">
@@ -108,10 +111,16 @@ const ServiceCard = ({ title, image, desc }) => {
         ref={ref}
         layout
         style={{
-          opacity: opacityTransform,
-          scale: scaleTransform,
+          // opacity: opacityTransform,
+          // scale: scaleTransform,
         }}
-        animate={{
+        initial = {{
+          scale: .5,
+          opacity: .5,
+        }}
+        animate={ isInView && {
+          scale: 1,
+          opacity: 1,
           boxShadow: isHovering
             ? "0px 0px 40px 0px rgba(0,0,0,0.8)"
             : "0px 0px 15px 0px rgba(0,0,0,0.8)",
