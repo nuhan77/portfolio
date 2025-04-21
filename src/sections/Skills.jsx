@@ -6,7 +6,7 @@ import skillsPic from "./../assets/skillsPic.jpg";
 import cssIcon from "./../assets/icons/css.png";
 import reactIcon from "./../assets/icons/science.png";
 import nodeIcon from "./../assets/icons/Node-js.png";
-import mongoDBIcon from "./../assets/icons/mongoDB.png";
+import mongoDBIcon from "./../assets/icons/MongoDB.png";
 import jsIcon from "./../assets/icons/js.png";
 import gsapIcomn from "./../assets/icons/gsap.png";
 import framerMotionIcon from "./../assets/icons/framer-motion2.png";
