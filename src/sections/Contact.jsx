@@ -5,7 +5,7 @@ import { motion, useInView } from "motion/react";
 import AnimatedButton from "../components/AnimatedButton";
 import { useMyContext } from "../context/context";
 import Modal from "../modal/Modal";
-import loadingGif from "./../assets/loading_icon.gif";
+import loadingGif from "./../assets/Loading_icon.gif";
 
 const emailJsServiceId = "service_hbwg50l";
 const emailJsTemplateId = "template_fbxnbeo";
