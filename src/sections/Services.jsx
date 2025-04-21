@@ -2,7 +2,7 @@ import { useInView, useScroll, useTransform } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import { useMyContext } from "../context/context";
-import fullStackImage from "./../assets/fullStack-min.jpg";
+import fullStackImage from "./../assets/fullstack-min.jpg";
 import frontendImage from "./../assets/frontend-min.jpg";
 import backendImage from "./../assets/backend-min.jpg";
 import server from "./../assets/server-min.jpg";
