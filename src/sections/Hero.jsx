@@ -38,7 +38,7 @@ import {
 import { animate } from "motion";
 import { useMyContext } from "../context/context";
 import TextReveal from "../components/TextReveal";
-import AnimatedButton from "../components/animatedButton";
+import ButtonAnimation from "../components/ButtonAnimation";
 import { Link } from "react-scroll";
 
 function Hero() {
@@ -129,10 +129,10 @@ function Hero() {
 
             <div className={` mt-8 flex gap-6 -z-20`}>
               <Link to="contact" smooth={true} offset={-70}>
-                <AnimatedButton>Contact Me</AnimatedButton>
+                <ButtonAnimation>Contact Me</ButtonAnimation>
               </Link>
               <Link to="contact" smooth={true} offset={-70}>
-                <AnimatedButton>Hire Me</AnimatedButton>
+                <ButtonAnimation>Hire Me</ButtonAnimation>
               </Link>
             </div>
           </motion.div>
