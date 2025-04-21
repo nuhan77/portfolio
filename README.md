@@ -1,12 +1,53 @@
-# React + Vite
+# 🚀 Nawazesh Mohammad | Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This site showcases my work as a **MERN Stack Developer** and **UI/UX Designer**, highlighting my skills, recent projects, and design philosophy.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [View Portfolio](https://portfolio-spgh.onrender.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 About
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio is a reflection of my journey as a developer and designer. It presents a clean, modern interface with smooth animations, fully responsive layouts, and an engaging user experience. Designed with performance and aesthetics in mind.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, Framer Motion
+- **Design**: Figma
+- **Tools**: Git, GitHub, VS Code, Render
+
+---
+
+## ✨ Features
+
+- ✅ Fully responsive design (Mobile, Tablet, Desktop)
+- 🎨 Beautiful UI with custom-designed components
+- 💡 Smooth scroll navigation and interactive animations
+- 🧠 Clean code with modular structure
+- 📸 Project gallery with responsive mockups
+- 💼 Separate sections for About Me, Skills, Services, and Projects
+- 📬 Contact form integrated with EmailJS / Formspree
+- 🌐 Live deployment with optimized performance
+
+---
+
+## 📷 Screenshots
+
+| Desktop View | Mobile View |
+|--------------|-------------|
+| ![Desktop Screenshot](./screenshots/desktop.png) | ![Mobile Screenshot](./screenshots/mobile.png) |
+
+> *(Replace with actual screenshots of your site)*
+
+---
+
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ by Nawazesh Mohammad
