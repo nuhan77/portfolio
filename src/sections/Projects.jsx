@@ -9,7 +9,8 @@ import geminiCLoneImage from "./../assets/geminiClone.png";
 import portfolioImage from "./../assets/portfolio.png";
 import { Link, useNavigate } from "react-router-dom";
 import AnimatedButton from "../components/AnimatedButton";
-
+import ClothFairImage from "./../assets/cloth-fair.png";
+ 
 const projectsInfo = [
   {
     title: "Travel",
@@ -36,8 +37,8 @@ const projectsInfo = [
       "A responsive travel booking app built with the MERN stack, offering users the ability to explore destinations, view tour details, and book trips seamlessly. Features include dynamic search, user authentication, admin dashboard, and smooth UI/UX for a complete travel planning experience.",
   },
   {
-    title: "Gemini Clone",
-    image: geminiCLoneImage,
+    title: "Cloth Fair",
+    image: ClothFairImage,
     liveLink: "https://gemini-clone-ya3o.onrender.com",
     link: "/projects/gemini-clone",
     shortDesc:
