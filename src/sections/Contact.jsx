@@ -105,7 +105,7 @@ function Contact() {
           <RevealFormBottom>
             {" "}
             <p className="font-titillium text-2xl">
-              Fell free to contact me for any work or suggestions or just to say
+              Feel free to contact me for any work or suggestions or just to say
               hi. I am always there to help you.
             </p>
           </RevealFormBottom>
